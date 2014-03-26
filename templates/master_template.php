@@ -44,11 +44,10 @@
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="<?=BASE_URL?>">Avaleht</a></li>
-				<li><a href="tags">Tags</a></li>
-			</ul>
-		</div><!--/.nav-collapse -->
-	</div>
+				<li <?= $controller == 'posts' ? 'class="active"' : '' ?>><a href="<?=BASE_URL?>">Posts</a></li>
+				<li <?= $controller == 'tags' ? 'class="active"' : '' ?>><a href="<?=BASE_URL?>tags">Tags</a></li>
+        </div><!--/.nav-collapse -->
+    </div>
 </div>
 
 <div class="container">
