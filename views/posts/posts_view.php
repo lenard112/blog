@@ -22,9 +22,8 @@
 <? foreach ($comments as $comment): ?>
     <div class="media">
         <a class="pull-left" href="#">
-            <img class="media-object" src="<?= ASSETS_URL ?>img/mati.png" alt="...">
+            <img class="media-object" src="<?= ASSETS_URL ?>img/comment.png" alt="...">
         </a>
-
         <div class="media-body">
             <h4 class="media-heading"><?= $post["username"] ?></h4>
             <?= $comment["comment_text"] ?>
